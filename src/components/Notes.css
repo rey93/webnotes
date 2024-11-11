@@ -1,0 +1,67 @@
+/* Estilos para la sección de tareas */
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 90px;
+}
+.button{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+button{
+    margin-right: 0px;
+}
+.formulario{
+    margin-bottom: 20px;
+     /* Opción 1: Utilizar position: sticky */
+    position: sticky;
+    
+}
+
+section {
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    position: unset;
+}
+
+section h2 {
+    margin-top: 0;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.addtareas {
+    display: flex;
+    flex-wrap: wrap; /* Permite que los elementos se coloquen en varias filas */
+    justify-content: center; /* Centra los elementos horizontalmente */
+    gap: 10px;
+}
+
+.agregadas {
+    background-color: #fff;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.05);
+    display: inline-block;
+}
+
+.agregadas h3 {
+    margin-top: 0;
+    color: black;
+}
+
+.agregadas button {
+    margin: 5px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.agregadas button:hover {
+    background-color: #ccc;
+}

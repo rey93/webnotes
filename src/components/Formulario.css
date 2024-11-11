@@ -1,0 +1,22 @@
+.formulario{
+    margin-bottom: 20px;
+     /* Opción 1: Utilizar position: sticky */
+    position: sticky;
+    
+    
+    /* Opción 2: Utilizar position: fixed (requiere ajustes adicionales) */
+    /* position: fixed; */
+    /* top: 0; */
+    /* left: 50%; */
+    /*  */
+    
+    /* Opción 3: Mantener la estructura sin posición fija */
+}
+.button{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+button{
+    margin-right: 0px;
+}
